@@ -1,0 +1,24 @@
+.table {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+.tablea{
+    padding-right: 15px;
+    background-color: white;
+}
+.buttone{
+ color: rgb(255, 255, 255);
+ background-color: blue;
+}
+.buttonl{
+    color: white;
+    background-color: red;
+}
+.judul{
+    font-family: 'Brush Script MT', sans-serif;
+}
+.buttont{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 160, 51);
+}
