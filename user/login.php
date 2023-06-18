@@ -1,11 +1,13 @@
+
 <?php
 session_start();
  error_reporting(1);
 if ($_SESSION['status'] == 'login'){
-    header('Location:tampil-data.php');
+    header('Location:form-tambah.php');
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,18 +21,18 @@ if ($_SESSION['status'] == 'login'){
 <body>
     <span class="background"></span>
     <span class="centering">
-        <form class="my-form" action="proses-login.php" method="post">
+        <form class="my-form" action="proses-login-user.php" method="post">
         <span class="login-welcome-row">
                     <img
                         class="login-welcome"
                         src="astronaut.jpg"
                     />
                     <!-- optimize the image in production -->
-                    <h1>LogIn Mimin!</h1>
+                    <h1>LogIn User!</h1>
                 </span>
         <table>
         <div class="text-field">
-            <label for="text">Nama Akun:</label>
+            <label for="email">Email:</label>
             <input
                         aria-label="Email"
                         type="text"
@@ -38,12 +40,9 @@ if ($_SESSION['status'] == 'login'){
                         name="username"
                         placeholder="Nama Akun"
                         required
+                       
                     >
-                    <img
-                        alt="Email Icon"
-                        title="Email Icon"
-                        src="email.svg"
-                    >   
+                    
                     </div>
                 <div class="text-field">
                     <label >Password:</label>
@@ -55,18 +54,14 @@ if ($_SESSION['status'] == 'login'){
                         placeholder="Password kamu"
                         required
                     >
-                    <img
-                        alt="Password Icon"
-                        title="Password Icon"
-                        src="password.svg"
-                    >
+                   
                     
                 </div>
                 <input type="submit" class="my-form__button" value="Login" />
                 <div class="my-form__actions">
                 <div class="my-form__row">
                         <span>Apakah kamu lupa password?</span>
-                        <a href="#" title="Reset Password">Reset Password</a>
+                        <a href="#" title="Reset Password">Buat akun</a>
                     </div>
                     <div class="my-form__signup">
                         <a href="#" title="Create Account">Create Account</a>

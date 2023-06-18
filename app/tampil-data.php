@@ -25,6 +25,8 @@ th, td {
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
+    
     <h1 class="judul" align = center>Data Calon Mahasiswa</h1>
     <?php
    
@@ -46,7 +48,7 @@ th, td {
     if (isset($_GET['pesan'])){
         $pesan = $_GET['pesan'];
         if ($pesan == 'tambah') {
-            echo "Data Berhasi Di tambah";
+            echo "Data berhasi di tambah";
         }
     }
  
