@@ -74,14 +74,14 @@ th, td {
             <br>
             <!-- <th>No</th> -->
             <th>Id Pendaftaran</th>
-            <th>Tanggal Daftar</th>
-            <th>Tahun ajaran</th>
-            <th>Jurusan</th>
             <th>Nama Peserta</th>
+            <th>Jurusan</th>
             <th>Tempat lahir</th>
             <th>Tanggal Lahir</th>
             <th>Jenis Kelamin</th>
             <th>Agama</th>
+            <th>Tanggal Daftar</th>
+            <th>Tahun ajaran</th>
             <th>Alamat</th>
             <th>Aksi</th>
         </tr>
@@ -90,14 +90,14 @@ th, td {
         <tr>
             
             <td><?=$baris['id_pendaftaran'] ?> </td>
-            <td><?=$baris['tgl_daftar'] ?> </td>
-            <td><?=$baris['th_ajaran'] ?> </td>
-            <td><?=$baris['jurusan'] ?> </td>
             <td><?=$baris['nm_peserta'] ?> </td>
+            <td><?=$baris['jurusan'] ?> </td>
             <td><?=$baris['tmp_lahir'] ?> </td>
             <td><?=$baris['tgl_lahir'] ?> </td>
             <td><?=$baris['jk'] ?> </td>
             <td><?=$baris['Agama'] ?> </td>
+            <td><?=$baris['tgl_daftar'] ?> </td>
+            <td><?=$baris['th_ajaran'] ?> </td>
             <td><?=$baris['Alamat'] ?> </td>
             <td>
                 <a href="edit.php?id=<?= $baris['id_pendaftaran'] ?>"><button class="buttone">Edit</button></a>
@@ -111,4 +111,3 @@ th, td {
             
 </body>
 </html>
-

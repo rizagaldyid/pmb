@@ -17,9 +17,9 @@
       <img class="gambar"src="../user/top.png">
 
       <div class="formbold-form-title">
-        <h2 class="">Register now</h2>
+        <h2 class="">Tambah Data</h2>
         <p>
-          Silahkan daftar 
+          Tambahin data nya donk
         </p>  
       </div>
         <form action="proses-tambah.php" method="post" enctype="multipart/form-data">

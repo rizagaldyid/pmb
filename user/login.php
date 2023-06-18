@@ -32,7 +32,7 @@ if ($_SESSION['status'] == 'login'){
                 </span>
         <table>
         <div class="text-field">
-            <label for="email">Email:</label>
+            <label for="email">Username:</label>
             <input
                         aria-label="Email"
                         type="text"
