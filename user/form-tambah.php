@@ -33,6 +33,7 @@
             name="id"
             id=""
             class="formbold-form-input"
+            required
           />
         </div>
         <div>
@@ -42,6 +43,7 @@
             name="nama"
             id=""
             class="formbold-form-input"
+            required
           />
         </div>
       </div>
@@ -54,6 +56,7 @@
             name="tgld"
             id=""
             class="formbold-form-input"
+            required
           />
         </div>
         <div>
@@ -63,6 +66,7 @@
             name="tgll"
             id="phone"
             class="formbold-form-input"
+            required
           />
         </div>
       </div>
@@ -76,6 +80,7 @@
           name="jurusan"
           id=""
           class="formbold-form-input"
+          required
           
         />
       </div>
@@ -89,6 +94,7 @@
           name="alamat"
           id=""
           class="formbold-form-input"
+          required
         />
       </div>
 
@@ -100,6 +106,7 @@
             name="ta"
             id=""
             class="formbold-form-input"
+            required
           />
         </div>
         <div>
@@ -109,6 +116,7 @@
             name="jk"
             id=""
             class="formbold-form-input"
+            required
           />
         </div>
       </div>
@@ -121,6 +129,7 @@
             name="agama"
             id="post"
             class="formbold-form-input"
+            required
           />
         </div>
         <div>
@@ -130,6 +139,7 @@
             name="tmpl"
             id="area"
             class="formbold-form-input"
+            required
           />
         </div>
         
