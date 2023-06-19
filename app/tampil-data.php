@@ -72,7 +72,7 @@ th, td {
     <table class="table" align=center>
         <tr>
             <br>
-            <!-- <th>No</th> -->
+            <th>No</th>
             <th>Id Pendaftaran</th>
             <th>Nama Peserta</th>
             <th>Jurusan</th>
@@ -86,9 +86,13 @@ th, td {
             <th>Aksi</th>
         </tr>
         <?php
+        $no=1
+        ?>
+        <?php
         foreach( $row as $baris){?>
         <tr>
             
+            <td><?= $no++?> </td>
             <td><?=$baris['id_pendaftaran'] ?> </td>
             <td><?=$baris['nm_peserta'] ?> </td>
             <td><?=$baris['jurusan'] ?> </td>
