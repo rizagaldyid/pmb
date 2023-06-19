@@ -57,7 +57,7 @@ if ($_SESSION['status'] == 'login'){
                    
                     
                 </div>
-                <input type="submit" class="my-form__button" value="Login" />
+                <input type="submit" class="my-form__button" value="Login"/>
                 <div class="my-form__actions">
                 <div class="my-form__row">
                         <span>Apakah kamu lupa password?</span>
